@@ -12,12 +12,23 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.mtj.tmp/
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.ctxt
+*.log
+*.class
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +42,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+hs_err_pid*
+replay_pid*
