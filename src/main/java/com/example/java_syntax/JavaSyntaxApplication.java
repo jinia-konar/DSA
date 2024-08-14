@@ -1,5 +1,7 @@
 package com.example.java_syntax;
 
+import com.example.java_syntax.dataTypes.DataTypeHandler;
+import com.example.java_syntax.dataTypes.ListImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,8 +10,8 @@ public class JavaSyntaxApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JavaSyntaxApplication.class, args);
-		ListImpl listImpl = new ListImpl();
-		listImpl.threadSafe();
+		DataTypeHandler handler = new ListImpl();
+		handler.handleImplementations();
 	}
 
 }
